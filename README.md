@@ -291,7 +291,7 @@ void Food()
 {
     if(head.x==food.x&&head.y==food.y)
     {
-        length+;
+        length++;
         time_t a;
         a=time(0);
         srand(a);
