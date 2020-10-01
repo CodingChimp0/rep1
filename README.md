@@ -176,7 +176,7 @@ void Move()
  
     }
  
-    else if(key=27)
+    else if(key==27)
  
     {
  
@@ -272,7 +272,7 @@ void ExitGame()
         life--;
         if(life>=0)
         {
-            headx=25;
+            head.x=25;
             head.y=20;
             bend_no=0;
             head.direction=RIGHT;
