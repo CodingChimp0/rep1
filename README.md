@@ -39,7 +39,7 @@ void Left();
 void Up();
 void Right();
 void ExitGame();
-int Scoreonly()
+int Scoreonly();
  
 struct coordinate{
     int x;
