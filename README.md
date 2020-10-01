@@ -331,7 +331,7 @@ void Left()
     }
     Bend();
     if(!kbhit())
-        head.x;
+        head.x--;
  
 }
 void Right()
